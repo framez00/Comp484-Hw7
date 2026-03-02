@@ -10,12 +10,14 @@
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 body {
     background-color: #F5F5F5;
     color: #1C1C1C;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -30,6 +32,7 @@ h1 {
 h2 {
     font-size: 2rem;
     font-weight: 700;
+    margin-top: 0;
 }
 
 h3 {
@@ -42,6 +45,15 @@ h3 {
 header, footer {
     background-color: #3A3F44;
     color: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
 
 
