@@ -49,6 +49,19 @@ h3 {
     font-weight: 500;
 }
 
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
@@ -61,10 +74,7 @@ header h1, header h2{
 }
 
 .profile-img {
-    width: 300px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
 }
 
 footer {
@@ -76,6 +86,7 @@ footer {
     display: inline-block;
 }
 
+/* Added some style to the links for better visibility */
 a {
     color: #B03045;
     font-weight: bold;
