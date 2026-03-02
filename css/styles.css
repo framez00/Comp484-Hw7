@@ -11,6 +11,7 @@
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 body {
@@ -47,6 +48,17 @@ header, footer {
     color: #FFFFFF;
 }
 
+header h1, header h2{
+    margin: 0;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
 footer {
     text-align: center;
 }
@@ -54,6 +66,17 @@ footer {
 .contact-info a {
     padding: 10px;
     display: inline-block;
+}
+
+a {
+    color: #B03045;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D14B5E;
+    text-decoration: underline;
 }
 
 
@@ -70,15 +93,4 @@ footer {
 .education {
     background-color: #DCDCDC;
     color: #1C1C1C;
-}
-
-a {
-    color: #B03045;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #D14B5E;
-    text-decoration: underline;
 }
