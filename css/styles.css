@@ -7,6 +7,11 @@
 
 /* Global styles 
 ------------------------------------*/
+.content-wrap {
+    width: 950px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #F5F5F5;
     color: #1C1C1C;
